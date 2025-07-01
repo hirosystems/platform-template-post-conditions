@@ -1,0 +1,17 @@
+{
+  "title": "Post-Conditions Template",
+  "description": "An educational template for interacting with post-conditions on different Clarity function scenarios.",
+  "type": "app",
+  "framework": "Clarity, Vue.js",
+  "demoUrl": "",
+  "useCase": "Post-Conditions",
+  "complexity": "Beginner",
+  "tags": [
+    "@stacks/connect",
+    "smart-contract",
+    "stacks",
+    "clarity",
+    "Vue.js",
+    "post-conditions"
+  ]
+}

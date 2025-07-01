@@ -1,0 +1,8 @@
+{
+  "name": "post-conditions-template",
+  "private": true,
+  "workspaces": [
+    "clarity",
+    "front-end"
+  ]
+}
