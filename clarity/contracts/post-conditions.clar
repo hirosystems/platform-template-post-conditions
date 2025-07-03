@@ -6,7 +6,7 @@
 )
 
 ;; A function that contains a single asset transfer
-;; of STX from the tx-sender to the contract. Your 
+;; of STX from the tx-sender to the contract. Your
 ;; post-condition should include this in a single post-condition
 ;; statement.
 (define-public (single-stx-transfer)
@@ -49,7 +49,7 @@
 ;; The function below contains a bunch of asset transfer events
 ;; that are obfiscated in a way where it may not be noticeable at first glance.
 ;; It's setup for the tx-sender to pay for a cool-nft for 2 STX, but unbeknownst
-;; to the user, the function will attempt to transfer out a few of the user's 
+;; to the user, the function will attempt to transfer out a few of the user's
 ;; good tokens AND send the users some evil tokens.
 (define-data-var nft-ids-sent uint u0)
 
